@@ -36,25 +36,39 @@ The **BMI Calculator App** is a Flutter-based mobile application designed to hel
 
 ### Steps
 
-1. Clone this repository:
+Yes, since you've cleaned the Flutter build, the `build` directory will be removed, and a fresh build will be required. You should explicitly mention that the app needs to be built first before running it.
+
+Here’s how you can update your steps:
+
+---
+
+### Updated Steps to Run the BMI Calculator:
+
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/temesgen-tana/bmi-calculator.git
+   git clone https://github.com/temesgen-tana/bmi_calculator.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
    ```bash
-   cd bmi-calculator
+   cd bmi_calculator
    ```
 
-3. Install dependencies:
+3. **Install dependencies**:
    ```bash
    flutter pub get
    ```
 
-4. Run the app on an emulator or connected device:
+4. **Build the project**
+   ```bash
+   flutter build
+   ```
+
+5. **Run the app on an emulator or connected device**:
    ```bash
    flutter run
    ```
+
 
 ---
 
@@ -88,5 +102,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-If you have any questions or need help with the project, feel free to contact me at [temesgentamado@gmail.com].
+If you have any questions or need help with the project, feel free to contact me at temesgentamado@gmail.com.
 
